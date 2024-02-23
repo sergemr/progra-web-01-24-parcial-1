@@ -1,0 +1,12 @@
+{
+  "name": "progra-web-01-24-parcial-1",
+  "version": "1.0.0",
+  "description": "progra-web-01-24-parcial 1",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
