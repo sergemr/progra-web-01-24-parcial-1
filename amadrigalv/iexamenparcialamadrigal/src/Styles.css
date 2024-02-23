@@ -1,0 +1,39 @@
+body {
+    background-color:rgb(151, 168, 243);
+    color: black;
+    font-family:'Times New Roman', Times, serif; 
+    text-align: center;
+    font-size: x-large;
+  }
+  
+  img {
+    width: 25%;
+    height: auto;
+  }
+  
+  form {
+    display: grid;
+    gap: 2px;
+  }
+  
+  label {
+    display: block;
+    font-weight:bolder;
+  }
+  
+  input {
+    width: 100%;
+    padding: 10px;
+  }
+  
+  .error {
+    color: red;
+    margin-top: 5px;
+  }
+  button {
+    background-color:burlywood;
+    color:white;
+    font-size: larger;
+    font-family:'Times New Roman', Times, serif; 
+    width: 100%;
+  }
