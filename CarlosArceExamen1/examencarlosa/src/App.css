@@ -1,0 +1,123 @@
+.outer-container {
+  position: relative;
+}
+
+.background-image {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url(https://media.istockphoto.com/id/1289383957/es/foto/fondo-nocturno-borroso-de-la-ciudad-de-bangkok.jpg?s=612x612&w=0&k=20&c=J2yBvqUXofTQYHGVXbs-ksz-WSFUWXJmAgGpffWc7iE=);
+  background-size: cover;
+  z-index: -1; 
+}
+.outer-container {
+  position: relative;
+}
+
+.background-image {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url(https://media.istockphoto.com/id/1289383957/es/foto/fondo-nocturno-borroso-de-la-ciudad-de-bangkok.jpg?s=612x612&w=0&k=20&c=J2yBvqUXofTQYHGVXbs-ksz-WSFUWXJmAgGpffWc7iE=);
+  background-size: cover;
+  z-index: -1; 
+}
+
+.login-container {
+  background-color: rgba(255, 255, 255, 0.8); 
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 20px;
+  max-width: 400px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.moving-text {
+  position:absolute;
+  top: 0%;
+  left: 3%;
+  transform: translateY(100%);
+  animation: moveLeftRight 5s linear infinite;
+}
+
+@keyframes moveLeftRight {
+  0% {
+    transform: translateX(10%);
+  }
+  50% {
+    transform: translateX(50%);
+  }
+  100% {
+    transform: translateX(10%);
+  }
+}
+
+form {
+  padding-top: 50px; 
+}
+
+.moving-text p {
+  background-color: #6e8beb; 
+  color: #fff; 
+  padding: 10px 100px;
+  border-radius: 10px;
+}
+.login-container {
+  background-color: rgba(255, 255, 255, 0.8); 
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 20px;
+  max-width: 400px;
+  margin: 0 auto;
+}
+h3 {
+  font-size: 18px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+label {
+  margin-bottom: 5px;
+
+}
+
+.login-container form {
+  display: flex;
+  flex-direction: column;
+}
+
+.login-container form label {
+  margin-bottom: 5px;
+}
+
+.login-container form input {
+  padding: 8px;
+  margin-bottom: 10px;
+  border-radius: 3px;
+  border: 1px solid #ccc;
+}
+
+.login-container form h1 {
+  font-size: 16px;
+  color: #333;
+}
+
+
+.login-container form button {
+  padding: 10px 25px;
+  margin-top: 10px;
+  background-color: #1293e9;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.login-container form button:hover {
+  background-color: #033863;
+}
