@@ -1,0 +1,40 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: royalblue;
+  color: white; /* Cambia el color del texto a blanco */
+  font-family: Arial, sans-serif; /* Puedes cambiar la fuente según tus preferencias */
+}
+
+.app {
+  max-width: 300px;
+  margin: auto;
+  padding: 20px;
+  text-align: center;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+form {
+  display: grid;
+  gap: 10px;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+}
+
+input {
+  width: 100%;
+  padding: 8px;
+}
+
+.error {
+  color: red;
+  margin-top: 5px;
+}
