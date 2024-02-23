@@ -1,0 +1,27 @@
+.App {
+  text-align: center;
+}
+
+div {
+  margin-bottom: 10px; 
+}
+
+label {
+  display: inline-block;
+  width: 100px;
+}
+
+/* Estilos para el contenedor principal */
+.mejorado {
+  background-color: #c0e8ec; /* Fondo celeste claro */
+  padding: 20px;
+}
+
+/* Estilos para el formulario */
+.form-mejorado {
+  background-image: url('https://fastly.picsum.photos/id/916/200/300.jpg?hmac=AlGE1xEsSBVvJKbHoDnjf9v5TRINh8LNMN6xwzQieO0'); /* Ruta de la imagen de fondo */
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 20px;
+  border-radius: 10px;
+}
