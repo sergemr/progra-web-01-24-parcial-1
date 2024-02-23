@@ -31,22 +31,22 @@ function RegistroFormulario() {
     <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '100vh', flexDirection: 'column' }}>
       <img src="https://picsum.photos/200/300"  />
       <div>
-        <h2>Formulario de Registro</h2>
+        <h1>Formulario de Registro</h1>
         <form onSubmit={handleSubmit}>
           <div>
-            <label htmlFor="nombre">Nombre:</label>
+            <label For="nombre">Nombre:</label>
             <input type="text" id="nombre" name="nombre" value={formulario.nombre} onChange={handleChange} required />
           </div>
           <div>
-            <label htmlFor="apellido">Apellido:</label>
+            <label For="apellido">Apellido:</label>
             <input type="text" id="apellido" name="apellido" value={formulario.apellido} onChange={handleChange} required />
           </div>
           <div>
-            <label htmlFor="correo">Correo Electrónico:</label>
+            <label For="correo">Correo Electrónico:</label>
             <input type="email" id="correo" name="correo" value={formulario.correo} onChange={handleChange} required />
           </div>
           <div>
-            <label htmlFor="confirmarCorreo">Confirmar Correo Electrónico:</label>
+            <label For="confirmarCorreo">Confirmar Correo Electrónico:</label>
             <input type="email" id="confirmarCorreo" name="confirmarCorreo" value={formulario.confirmarCorreo} onChange={handleChange} required />
           </div>
           <div>
