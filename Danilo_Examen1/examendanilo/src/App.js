@@ -45,9 +45,6 @@ function App() {
     
       </body>
 
-
-      prueba
-
     </div>
   );
 }
