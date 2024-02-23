@@ -31,7 +31,7 @@ function App() {
 
                   <div style={styles.inputContainer}>
                       <label htmlFor="email2" style={styles.label}></label>
-                      <input type="email" id="email2" name="email2" Placeholder="Confirmar Correo Electrónico" required style={styles.input} />
+                      <input type="email" id="email2" name="email2" Placeholder="Confirmar Correo Electrónico." required style={styles.input} />
                   </div>
 
                   <div>
