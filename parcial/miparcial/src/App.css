@@ -1,0 +1,26 @@
+body {
+  background-color: #6264A7;
+}
+.App {
+  
+  text-align: center;
+  
+}
+.inputs {
+  margin: 1rem;
+  padding: 0.5rem;
+}
+.formulario {
+  background-color: aliceblue;
+  margin: 0rem 30rem 0rem 30rem;
+  border-radius: 3rem;
+  -webkit-box-shadow: -71px -12px 56px 15px rgba(0,0,0,0.75);
+  -moz-box-shadow: -71px -12px 56px 15px rgba(0,0,0,0.75);
+  box-shadow: -71px -12px 56px 15px rgba(0,0,0,0.75);
+}
+#boton{
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
