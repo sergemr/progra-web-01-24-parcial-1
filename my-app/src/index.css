@@ -1,0 +1,49 @@
+/* Estilos para el formulario */
+form {
+  width: 300px;
+  margin: 0 auto;
+  font-family: Arial, sans-serif;
+}
+
+/* Estilos para el encabezado del formulario */
+h2 {
+  text-align: center;
+  margin-top: 20px;
+}
+
+/* Estilos para los campos de entrada */
+input[type="text"],
+input[type="email"],
+select {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+/* Estilos para la etiqueta de género */
+label[for="gender"] {
+  display: block;
+  margin-top: 10px;
+}
+
+/* Estilos para el botón de registro */
+input[type="submit"] {
+  width: 100%;
+  padding: 10px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+/* Estilos para el botón de registro en hover */
+input[type="submit"]:hover {
+  background-color: #45a049;
+}
