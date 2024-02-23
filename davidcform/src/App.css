@@ -1,0 +1,42 @@
+.form-background {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.form-container {
+  background: rgba(255, 255, 255, 0.8);
+  padding: 40px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 400px; 
+  display: flex;
+  flex-direction: column;
+  gap: 20px; 
+}
+
+input {
+  padding: 15px; 
+  border-radius: 4px;
+  border: 1px solid #ddd;
+  outline: none;
+  font-size: 16px; 
+}
+
+button {
+  padding: 15px;
+  border: none;
+  border-radius: 4px;
+  background-color: blue;
+  color: white;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: darkblue;
+}
